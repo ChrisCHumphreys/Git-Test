@@ -15,6 +15,14 @@ int main()
   }
 
   cout << "The sum of the numbers from 1 to " << inputValue << " is " << output << endl;
+  output = 1;
+
+  for (int i = 1; i <= inputValue; i++)
+  {
+    output *= i;
+  }
+
+  cout << "The product of the numbers from 1 to " << inputValue << " is " << output << endl;
 
   return 0;
 }
